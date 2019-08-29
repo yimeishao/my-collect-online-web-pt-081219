@@ -3,5 +3,6 @@ def my_collect(collection)
   while x < collection.size 
   yield (collection, x)
   x += 1 
-  
+  collection
+end
 
